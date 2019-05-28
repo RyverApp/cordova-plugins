@@ -16,8 +16,8 @@
         <engine name="apple-ios" version=">=8.0" />
 	</engines>
 
-    <dependency id="cordova-labs-local-webserver" url="https://github.com/apache/cordova-plugins.git#local-webserver" version=">=2.3.1" />
-    <dependency id="cordova-plugin-wkwebview-engine" url="https://github.com/RyverApp/cordova-plugin-wkwebview-engine" />
+    <dependency id="cordova-labs-local-webserver" url="git+https://github.com/apache/cordova-plugins.git#local-webserver" version=">=2.3.1" />
+    <dependency id="cordova-plugin-wkwebview-engine" url="git+https://github.com/RyverApp/cordova-plugin-wkwebview-engine" />
 
     <!-- ios -->
     <platform name="ios">
