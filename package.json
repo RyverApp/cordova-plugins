@@ -1,5 +1,5 @@
 {
-  "name": "cordova-labs-local-webserver",
+  "name": "@ryverapp/cordova-labs-local-webserver",
   "version": "2.3.1",
   "description": "Cordova Local Web Server Plugin",
   "cordova": {
