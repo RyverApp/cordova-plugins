@@ -49,9 +49,7 @@ module.exports = function(context) {
     }
 
     var altcontentsrcTag = etree.findall("./preference[@name='AlternateContentSrc']");
-    if (altcontentsrcTag.length > 0) {
-        altcontentsrcTag[0].set('value', old_content_src_value);
-    } else {
+    if (altcontentsrcTag.length === 0) {
       var pref = et.Element('preference', { name: 'AlternateContentSrc', value: old_content_src_value });
       etree.getroot().append(pref);
     }
