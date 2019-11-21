@@ -7,10 +7,6 @@
       "ios"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Collaborne/cordova-plugins.git"
-  },
   "keywords": [
     "cordova",
     "local web server",
